@@ -25,11 +25,6 @@ function AddTransaction() {
         setExpense(0)
     }
 
-    const onClickClear = () => { 
-        setDescription("")
-        setExpense(0)
-    }
-
     return (
         <div>
             <form onSubmit={onSubmit} >
